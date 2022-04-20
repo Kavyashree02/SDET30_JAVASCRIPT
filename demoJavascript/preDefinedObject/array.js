@@ -17,27 +17,30 @@ var arr2 = [10,20,30,40]
 //  console.log(arr1.push(7));  //to add after last value
 //  console.log(arr1);    //return type is length of array
 
+//3]pop method
 // console.log(arr1.pop()); //to remove the last value(delete)
 // console.log(arr1);        //return type is deleted value
 
+//4]unshift
 // console.log(arr1.unshift(5,6,7,"hello", " ")); //to add the value from start
 // console.log(arr1);              //return type is deleted value
 
+//5]shift
 //console.log(arr1.shift(3));   //to remove the value from start
 //console.log(arr1);             //return type is deleted value
 
-//slice(specify start and end)
+//6]slice(specify start and end)
 // console.log(arr1.slice(0,3)); //[ 1, 2, 3 ] //return type is array
 
-//splice(1st tells where to start, 2nd tells how many items to be deleted,
-//3rd& 4th so on tells what items to be added )
+//7]splice(1st tells where to start, 2nd tells No. of items to be deleted,
+//3rd tells what items to be added )
 // console.log(arr1.splice(2,0,"a","b"));
 // console.log(arr1);
 
 // console.log(arr1.splice(2,2,"a","b","c"));
 // console.log(arr1);
 
-// every
+// 8]every(returns true if the condition is satisfied)
 // arr1.every(function (element){            //return type is boolean
 //     return element>0
 // })
@@ -51,18 +54,18 @@ var arr2 = [10,20,30,40]
 // }));
 
 
-//some
+//9]some[returns boolean value]
 // console.log(arr1.some(function(element){
 //     return element>4
 // })); 
 
-//indexof
+//10]indexof
 // console.log(arr1.indexOf(4)); //return the index of the value from array
 
 // console.log(arr1.indexOf(40))  // (works from left to right) which are not in array it will return output as -1
 
-//lastIndexOf
-//console.log(arr1.lastIndexOf(3,5));   //works from right to left
+//10]lastIndexOf
+// console.log(arr1.lastIndexOf(3,5));  //2 //works from right to left
 
 //reverse
 //  console.log(arr1.reverse());     //reverse the elements of array
@@ -87,21 +90,21 @@ var arr2 = [10,20,30,40]
 // }));
 
 // filter method
-console.log(arr1.filter((element, index,array)=>{
-    if (element>3) {
-        return element        
-    }
-}));
+// console.log(arr1.filter((element, index,array)=>{
+//     if (element>3) {
+//         return element        
+//     }
+// }));
 
 // console.log(arr1);
 
-//sort
+//sort(if the result is -ve value its ascending order, if its +ve value its descending order, if result is 0 remains constant)
 // console.log(
 //     arr1.sort((a,b)=>{
 //         return a-b
 //     }));
 
-// //reduce
+// reduce
 // console.log(arr1.reduce((a,b)=>{     //works from left to right ,a=0 by default if we are not specifying
 //     return a+b                       //0+1, 1+2, 3+3, 6+4, 10+5
 // }));                                 //a=0, b= elements of array

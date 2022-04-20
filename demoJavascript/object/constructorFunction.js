@@ -14,16 +14,17 @@ function Car(brand,model,spec) {
     this.spec = spec
 }
 
-//to modify the constructor function
-//Car.prototype.seatCapacity = 5
+//to modify the constructor function use prototype keyword
+Car.prototype.seatCapacity = 5
+console.log(Car.prototype.seatCapacity = 5);
 
-var c1 = new Car("TOYOTA", "Fortuner", [2.2,"xBHP", "YNM"])
-c1.seatCapacity=7
-console.log(c1.seatCapacity); 
-var c2 = new Car("SUZUKI", "Grand vitara", [9,8,7])
-//console.log(c2.seatCapacity=3);
-console.log(c2.brand);
-console.log(c1.spec); 
+// var c1 = new Car("TOYOTA", "Fortuner", [2.2,"xBHP", "YNM"])
+// c1.seatCapacity=7
+// console.log(c1.seatCapacity); 
+// var c2 = new Car("SUZUKI", "Grand vitara", [9,8,7])
+// //console.log(c2.seatCapacity=3);
+// console.log(c2.brand);
+// console.log(c1.spec); 
 
 
 

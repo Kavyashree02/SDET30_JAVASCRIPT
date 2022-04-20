@@ -9,7 +9,7 @@ car.drive = function () {
 
     car.brochure = {brand : "TOYOTA",
          model : "Land Cruser",
-         color : "white",
+         color : "whitePink",
          spec : ["2.5l turbocharged engine", "250BHP", "500Nm"],
          drive : function () {
         console.log("travel");

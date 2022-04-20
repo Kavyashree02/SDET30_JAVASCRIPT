@@ -1,7 +1,7 @@
 //array
 //declaration
-// var arr1 = new Array("value1", "kavyashree", "tyss", 2, undefined, null, ["java", "selenium", "javascript", "webdriverio"]
-// ,{fname: "kavyashree"})
+var arr1 = new Array("value1", "kavyashree", "tyss", 2, undefined, null, ["java", "selenium", "javascript", "webdriverio"]
+,{fname: "kavyashree"})
 // console.log(typeof(arr1));
 // console.log(arr1);
 //console.log(arr1.length);
@@ -14,9 +14,9 @@
 // console.log(arr3);
 // console.log(arr3.length);
 
-var arr4 =[5]
-console.log(arr4);
-console.log(arr4.length);
+// var arr4 =[5]
+// console.log(arr4);
+// console.log(arr4.length);
 
 //for loop
 /*for (let index = 0; index < arr1.length; index++) {
@@ -42,15 +42,15 @@ do
 
     //for of loop
 
-    /*for(var element of arr1){
-        console.log(element);
-    }*/
+    // for(var element of arr1){
+    //     console.log(element);
+    // }
 
     //for in loop
-    /*for(var item in arr1)
+    for(var item in arr1)
     {
         console.log(item);
-    }*/
+    }
 
     /*console.log("============for loop============");
     var arr5= [1,2, , ,5, ,7]

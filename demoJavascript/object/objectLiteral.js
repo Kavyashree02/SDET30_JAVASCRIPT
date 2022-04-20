@@ -21,39 +21,39 @@ var person = {
 }
 
 
-//accessing the properties
+//accessing the properties ====>by dot notation(.) & by bracket notation[]
 //by using dot notation(.)
 
 // console.log(person.YOE);
 // console.log(person.fname);
-// person.introduce()
+// console.log(person.introduce());
 
 //by using bracket notation([])
 
-/*console.log(person["skillset"]);
-console.log(person["bioData"]);*/
+// console.log(person["skillset"]);
+// console.log(person["bioData"]);
 
-for (var property in person) {
-    if (Object.hasOwnProperty.call(person, property)) {
-       console.log(person[property]);
+// for (var property in person) {
+//     if (Object.hasOwnProperty.call(person, property)) {
+//        console.log(person[property]);
         
-    }
-}
+//     }
+// }
 
-//person.bioData.address
-//var a=person.skillset[1];
-//console.log(a);
+// console.log(person.bioData.address);
+var a=person.skillset[1];
+console.log(a);
 
 //var flag = false
-for(i=0;i<person.skillset.length;i++)
-if (person.skillset[i] =="selenium") {
-    console.log("contains selenium");
-    flag = true;
-    break;    
-}
-/*else{
-    console.log("does not contain");
-}*/
-if (flag=false) {
-    console.log("does not contain");
-}
+// for(i=0;i<person.skillset.length;i++)
+// if (person.skillset[i] =="selenium") {
+//     console.log("contains selenium");
+//     flag = true;
+//     break;    
+// }
+// /*else{
+//     console.log("does not contain");
+// }*/
+// if (flag=false) {
+//     console.log("does not contain");
+// }
