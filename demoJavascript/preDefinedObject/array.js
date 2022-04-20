@@ -37,13 +37,13 @@ var arr2 = [10,20,30,40]
 // console.log(arr1.splice(2,2,"a","b","c"));
 // console.log(arr1);
 
-//every
+// every
 // arr1.every(function (element){            //return type is boolean
 //     return element>0
 // })
 
 // console.log(arr1.every(function (element){         //return type is boolean
-//     return element>0
+//     return element<0
 // }));
 
 // console.log(arr1.every(function (element){          //return type is boolean(when all the elements satify the given condition then only it vill return true)
@@ -86,7 +86,7 @@ var arr2 = [10,20,30,40]
 //     return element*3
 // }));
 
-//filter method
+// filter method
 console.log(arr1.filter((element, index,array)=>{
     if (element>3) {
         return element        
